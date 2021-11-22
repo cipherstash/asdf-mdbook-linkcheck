@@ -57,7 +57,7 @@ get_platform() {
 get_release_filename() {
 	local version="$1"
 
-	echo "mdbook-v${version}-$(get_platform).tar.gz"
+	echo "mdbook-linkcheck.$(get_platform).zip"
 }
 
 get_download_url() {
